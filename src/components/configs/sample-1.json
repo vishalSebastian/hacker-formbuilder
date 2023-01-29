@@ -2,21 +2,25 @@
     {
       "name": "First Name",
       "type": "text",
+      "key":"fn",
       "min": 4
     },
     {
       "name": "Last Name",
       "type": "text",
+      "key":"ln",
       "min": 3
     },
     {
       "name": "Have you visited our site before?",
       "type": "select",
+      "key":"isVisited",
       "options":["Yes" , "No"]
     },
     {
       "name": "age",
       "type": "number",
+      "key":"age",
       "min":18
     }
   ]

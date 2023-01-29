@@ -5,13 +5,15 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 /** You would need to make this component dynamic, its using hardcoded values */
-export const FieldSelect = ({ options , label }) => {
+export const FieldSelect = ({ options , label,error }) => {
         return <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">Age</InputLabel>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           value={10}
+          data-testid="data-selectfield"
+          error={error}
           label="Age"
           onChange={()=>{}}
         >

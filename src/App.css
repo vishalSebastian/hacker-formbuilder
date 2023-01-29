@@ -14,6 +14,9 @@
   align-items: center;
   flex-direction: column;
 }
+.footer{
+  margin-top: 20px;
+}
 
 .display-pane{
   padding-right: 20px;

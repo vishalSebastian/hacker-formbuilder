@@ -1,8 +1,9 @@
 import './App.css';
 import { FormBuilder } from './components/FormBuilder';
-import config from '../src/components/config.json'
+import config from '../src/components/configs/sample-1.json'
 import { DataViewer } from './components/DataViewer';
 import { PreviewAvailableElements } from './components/PreviewAvailableElements';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
           <DataViewer config={config} />
           <PreviewAvailableElements />
         </div>
-
         <FormBuilder config={config} />
+        <Footer />
       </div>
     </div>
   );
