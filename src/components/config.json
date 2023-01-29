@@ -1,0 +1,22 @@
+[
+    {
+      "name": "First Name",
+      "type": "text",
+      "min": 4
+    },
+    {
+      "name": "Last Name",
+      "type": "text",
+      "min": 3
+    },
+    {
+      "name": "Address",
+      "type": "textarea",
+      "min":10
+    },
+    {
+      "name": "age",
+      "type": "number",
+      "min":18
+    }
+  ]
