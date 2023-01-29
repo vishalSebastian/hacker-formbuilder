@@ -10,9 +10,9 @@
       "min": 3
     },
     {
-      "name": "Address",
-      "type": "textarea",
-      "min":10
+      "name": "Have you visited our site before?",
+      "type": "select",
+      "options":["Yes" , "No"]
     },
     {
       "name": "age",
